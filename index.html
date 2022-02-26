@@ -10,8 +10,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- File css -->
     <link rel="stylesheet" href="./asset/css/style.css">
+
     <title>Bootstrap Freelancer</title>
 </head>
 
@@ -20,20 +26,26 @@
     <!-- Header della pagina -->
     <header class="bg-secondary">
 
-        <div class="container py-5">
+        <div class="container">
 
-            <div class="row">
+            <div class="row align-items-center py-2">
 
                 <!-- Titolo di sinistra -->
-                <div class="col-4 col-sm-4"></div>
+                <div class="col-8  col-sm-4 col-xl-2">
+                    <h4>Start Bootstrap</h4>
+                </div>
 
-                <!-- Logo di destra -->
-                <div class="col-2 offset-6 col-sm-6 offset-sm-2 row">
+                <!-- Navbar di destra -->
+                <div class="col-2 offset-2 col-sm-6 offset-sm-2 col-md-5 offset-md-3 col-xl-4 offset-xl-6 row">
 
-                    <!-- Menu compara >576px -->
-                    <div class="col-sm d-none d-sm-block">blabla</div>
-                    <div class="col-sm d-none d-sm-block">blabla</div>
-                    <div class="col-sm d-none d-sm-block">blabla</div>
+                    <!-- Logo Hamburger -->
+                    <i class="fa-solid fa-bars p-1 border rounded-3 text-center text-white d-sm-none"></i>
+
+                    <!-- Menu comparsa >576px -->
+                    <div class="col-sm d-none d-sm-block">Portfolio</div>
+                    <div class="col-sm d-none d-sm-block">About</div>
+                    <div class="col-sm d-none d-sm-block">Contact</div>
+
                 </div>
 
             </div>
@@ -43,37 +55,75 @@
     </header>
 
     <main>
+
         <!-- Prima sezione "Start Bootstrap" -->
-        <section class="bg-teal">
+        <section class="py-5">
 
             <div class="container d-flex flex-column align-items-center py-5">
+
                 <!-- Immagine user -->
-                <div class="box mb-2"></div>
+                <div class="mb-2">
+                    <img src="./asset/img/avatar.svg" alt="" class="w-100">
+                </div>
+
                 <!-- Start Bootstrap -->
-                <div class="box mb-2"></div>
+                <div class="mb-2">
+                    <h2>Start Bootstrap</h2>
+                </div>
+
                 <!-- Stella -->
-                <div class="box mb-2"></div>
+                <div class="mb-2"></div>
+
                 <!-- Descrizione -->
-                <div class="box mb-2"></div>
+                <div class="mb-2">
+                    Graphich - Web designer - Illustrator
+                </div>
+
             </div>
 
 
         </section>
 
         <!-- Seconda sezione immagini -->
-        <section>
+        <section class="py-5">
 
             <div class="container">
 
-                <div class="text-center">Titolo</div>
+                <h2 class="text-center mb-5">Titolo</h2>
+
                 <!-- Serie di immagini -->
                 <div class="row">
-                    <div class="col-12 col-sm-6 col-xl-4 mb-2">Immagine 1</div>
-                    <div class="col-12 col-sm-6 col-xl-4 mb-2">Immagine 2</div>
-                    <div class="col-12 col-sm-6 col-xl-4 mb-2">Immagine 3</div>
-                    <div class="col-12 col-sm-6 col-xl-4 mb-2">Immagine 4</div>
-                    <div class="col-12 col-sm-6 col-xl-4 mb-2">Immagine 5</div>
-                    <div class="col-12 col-sm-6 col-xl-4 mb-2">Immagine 6</div>
+
+                    <!-- Immagine 1 -->
+                    <div class="col-sm-6 col-xl-4 mb-2">
+                        <img src="./asset/img/cabin.png" alt="" class="rounded-3 w-100">
+                    </div>
+
+                    <!-- Immagine 2 -->
+                    <div class="col-sm-6 col-xl-4 mb-2">
+                        <img src="./asset/img/cake.png" alt="" class="rounded-3 w-100">
+                    </div>
+
+                    <!-- Immagine 3 -->
+                    <div class="col-sm-6 col-xl-4 mb-2">
+                        <img src="./asset/img/circus.png" alt="" class="rounded-3 w-100">
+                    </div>
+
+                    <!-- Immagine 4 -->
+                    <div class="col-sm-6 col-xl-4 mb-2">
+                        <img src="./asset/img/game.png" alt="" class="rounded-3 w-100">
+                    </div>
+
+                    <!-- Immagine 5-->
+                    <div class="col-sm-6 col-xl-4 mb-2">
+                        <img src="./asset/img/safe.png" alt="" class="rounded-3 w-100">
+                    </div>
+
+                    <!-- Immagine 6 -->
+                    <div class="col-sm-6 col-xl-4 mb-2">
+                        <img src="./asset/img/submarine.png" alt="" class="rounded-3 w-100">
+                    </div>
+
                 </div>
 
             </div>
@@ -81,45 +131,77 @@
         </section>
 
         <!-- Terza sezione -->
-        <section class="bg-teal">
+        <section class="py-5">
 
-            <div class="w-50 mx-auto">
-                <div class="text-center mb-2">About</div>
-                <div class="text-center mb-2">Stella</div>
-                <div class="d-flex flex-column flex-sm-row">
-                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate enim nulla molestiae rem
-                        eos repellat nemo tempore debitis eaque harum odit dolorem adipisci asperiores sunt eius eum,
-                        est in laudantium!</div>
-                    <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae pariatur ex maiores enim totam
-                        magni, dolores molestias aut? Tenetur molestiae impedit optio suscipit architecto magnam
-                        necessitatibus quidem vero quod doloremque!</div>
+            <div class="container">
+
+                <h2 class="text-center mb-3">Titolo</h2>
+
+                <!-- Due paragrafi -->
+                <div class="row g-2 mb-3">
+
+                    <div class="offset-2 col-8 col-sm-4 offset-sm-2">Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit.
+                        Quaerat illo atque modi ab iure repellendus accusantium, tempora dolores praesentium numquam,
+                        nulla natus. Consequuntur praesentium, maxime architecto voluptatibus magni laboriosam in?</div>
+                    <div class="offset-2 col-8 col-sm-4 offset-sm-0">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
+                        Voluptate magnam totam repellendus sint aperiam. Debitis officiis ipsam soluta maxime ullam
+                        commodi repellendus, exercitationem ea, quia impedit earum dolorem, dolore tempora?</div>
                 </div>
-                <div></div>
+
+                <!-- Bottone Download -->
+                <div class="text-center">Button</div>
+
             </div>
+
         </section>
 
         <!-- Quarta sezione -->
         <section>
 
+            <div class="container py-5">
 
-            <div class="w-50 mx-auto py-5">
+                <div class="row">
 
-                <div class="text-center mb-2">Titolo</div>
-                <div class="text-center mb-2">Stella</div>
+                    <div class="offset-2 col-8 offset-2">
 
-                <div>
-                    <div>Name
-                        <hr>
+                        <h2 class="text-center mb-3">Titolo</h2>
+
+                        <!-- Form Contact me -->
+                        <form action="/action_page.php">
+
+                            <!-- Name -->
+                            <div class="mb-3">
+                                <input class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                                    type="text" placeholder="Name">
+                            </div>
+
+                            <!-- Email -->
+                            <div class="mb-3">
+                                <input type="email"
+                                    class="form-control border-top-0 border-start-0 border-end-0 rounded-0" id="email"
+                                    placeholder="Email Address" name="email">
+                            </div>
+
+                            <!-- Phone Number -->
+                            <div class="mb-3">
+                                <input class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                                    type="text" placeholder="Phone Number">
+                            </div>
+
+                            <!-- Message -->
+                            <div class="mb-3">
+                                <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0"
+                                    id="exampleFormControlTextarea1" placeholder="Message" rows="8"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Send</button>
+
+                        </form>
+
                     </div>
-                    <div>Name
-                        <hr>
-                    </div>
-                    <div>Name
-                        <hr>
-                    </div>
-                    <div class="mb-5">Name</div>
-                    <hr>
-                    <div>Send</div>
+
                 </div>
 
             </div>
@@ -127,32 +209,33 @@
         </section>
 
         <!-- Quinta Section -->
-        <section class="bg-secondary">
+        <section class="py-5">
 
-            <div class="container w-75 mx-auto">
+            <div class="container">
 
-                <div class="d-flex flex-column align-items-center flex-sm-row justify-content-sm-around">
-                    <div class="mb-2">
-                        <div>Location</div>
-                        <div>Address</div>
-                    </div>
-                    <div class="mb-2">
-                        <div>Around the web</div>
-                        <div>Loghi</div>
-                    </div>
-                    <div class="mb-2">
-                        <div>About freelancer</div>
-                        <div>Description</div>
-                    </div>
+                <div class="row g-3 g-sm-0 justify-content-sm-around">
+
+                    <div class="text-center col-sm-3">Lorem ipsu</div>
+                    <div class="text-center col-sm-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+                        vel.
+                        Ducimus, quae magnam totam debitis quo itaque dolorem eos, iste incidunt, nemo temporibus et.
+                        Porro, et facere? Voluptate, totam beatae?</div>
+                    <div class="text-center col-sm-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Perferendis autem
+                        alias inventore! Qui amet minus, dicta aut minima eum doloremque earum non labore obcaecati
+                        dolor aspernatur porro quisquam ut aperiam.</div>
 
                 </div>
-                
+
             </div>
+
         </section>
 
         <!-- Footer -->
-        <footer>
-            <div class="text-center py-5">Footer</div>
+        <footer class="bg-secondary">
+
+            <div class="text-center py-3">Footer</div>
+
         </footer>
     </main>
 
