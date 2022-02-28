@@ -9,7 +9,9 @@
 section:nth-of-type(1) {
   background-color: var(--bs-teal);
 }
-
+.line{
+  height: 4px;
+}
 
 /* Seconda Section */
 
