@@ -1,13 +1,13 @@
-:root{
-    --bs-blue_light:#3a546d;
+:root {
+  --bs-blue_light: #3a546d;
 }
 
 /* Header */
 
 /* Prima Section */
 
-section:nth-of-type(1){
-    background-color: var(--bs-teal);
+section:nth-of-type(1) {
+  background-color: var(--bs-teal);
 }
 
 
@@ -15,8 +15,8 @@ section:nth-of-type(1){
 
 
 /* Terza Section */
-section:nth-of-type(3){
-    background-color: var(--bs-teal);
+section:nth-of-type(3) {
+  background-color: var(--bs-teal);
 }
 
 /* Quarta Section Form */
@@ -24,12 +24,12 @@ section:nth-of-type(3){
     font-size: 25px!important;
  } */
 
- /* Quinta Section */
- section:nth-of-type(5){
-     background-color: var(--bs-blue_light);
- }
+/* Quinta Section */
+section:nth-of-type(5) {
+  background-color: var(--bs-blue_light);
+}
 
- /* html {
+/* html {
     font-size: 1rem;
   }
   
