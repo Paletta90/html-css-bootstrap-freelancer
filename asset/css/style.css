@@ -25,11 +25,23 @@ section:nth-of-type(3) {
 /* ::-webkit-input-placeholder {
     font-size: 25px!important;
  } */
-
+ section:nth-of-type(4) button {
+  background-color: var(--bs-teal);
+  border-color: var(--bs-teal);
+}
 /* Quinta Section */
 section:nth-of-type(5) {
   background-color: var(--bs-blue_light);
 }
+section:nth-of-type(5) a{
+  color: var(--bs-teal);
+}
+.circle{
+  width: 36px;
+  height: 36px;
+  line-height: 32px;
+}
+
 
 /* html {
     font-size: 1rem;
